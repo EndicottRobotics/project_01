@@ -28,24 +28,22 @@
 -- Generating done
 -- Build files have been written to: /root/ros2_ws/src/endicott/build/endicott
 [35m[1mConsolidate compiler generated dependencies of target endicott_turtle_controler[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o[0m
-[100%] [32m[1mLinking CXX executable endicott_turtle_controler[0m
 [100%] Built target endicott_turtle_controler
 -- Install configuration: "RelWithDebInfo"
 -- Execute custom install script
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/lib/endicott/endicott_turtle_controler
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/ament_index/resource_index/package_run_dependencies/endicott
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/ament_index/resource_index/parent_prefix_path/endicott
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/ament_prefix_path.sh
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/ament_prefix_path.dsv
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/path.sh
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/path.dsv
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.bash
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.sh
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.zsh
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.dsv
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/lib/endicott/endicott_turtle_controler
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/ament_index/resource_index/package_run_dependencies/endicott
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/ament_index/resource_index/parent_prefix_path/endicott
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/path.sh
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/path.dsv
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.bash
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.sh
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.zsh
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.dsv
 -- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/package.dsv
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/ament_index/resource_index/packages/endicott
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/cmake/endicottConfig.cmake
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/cmake/endicottConfig-version.cmake
--- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/package.xml
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/ament_index/resource_index/packages/endicott
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/cmake/endicottConfig.cmake
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/cmake/endicottConfig-version.cmake
+-- Up-to-date symlink: /root/ros2_ws/src/endicott/install/endicott/share/endicott/package.xml
