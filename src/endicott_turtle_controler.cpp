@@ -45,7 +45,7 @@ private:
     if (distance_to_target > tolerance_) {
       double angle_to_target = std::atan2(target_y_ - current_y_, target_x_ - current_x_);
       double angular_error = angle_to_target - current_theta_;
-      if (std::fabs(angular_error) > 0.1) {
+      if (std::fabs(angular_error) > 0.2) {
           rotate_turtle(angular_error);
       } else {
           move_forward(distance_to_target);
@@ -92,13 +92,15 @@ int main(int argc, char **argv) {
   double target_x, target_y;
   while (true) {
     std::cout << "Enter target x coordinate (or 'q' to quit): ";
-    if (!(std::cin >> target_x)) {
-        break;
-    }
-    std::cout << "Enter target y coordinate: ";
-     if (!(std::cin >> target_y)) {
-        break;
-    }
+    if (!(std::cin >> target_x)) { break; }
+    if (target_x <0) {target_x = 0;}
+    if (target_x >11.08) {target_x = 11.08;}
+
+    std::cout << "Enter target Y coordinate (or 'q' to quit): ";
+    if (!(std::cin >> target_y)) { break; }
+    if (target_y <0) {target_y = 0;}
+    if (target_y >11.08) {target_y = 11.08;}
+
    goto_node->set_target(target_x, target_y);
    while(goto_node->at_target() == false){
         rclcpp::spin_some(goto_node);

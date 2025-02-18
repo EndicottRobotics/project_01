@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.001030] (endicott) JobQueued: {'identifier': 'endicott', 'dependencies': OrderedDict()}
+[0.001737] (endicott) JobStarted: {'identifier': 'endicott'}
+[0.009148] (endicott) JobProgress: {'identifier': 'endicott', 'progress': 'cmake'}
+[0.011594] (endicott) Command: {'cmd': ['/usr/bin/cmake', '/root/ros2_ws/src/endicott', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/endicott/install/endicott'], 'cwd': '/root/ros2_ws/src/endicott/build/endicott', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/endicott/build'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-c480e4a7-3702-48b8-a618-d242b6208e50.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('DEBUGINFOD_URLS', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/src/endicott/build/endicott/install:/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/80442_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2016a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Lucas/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Lucas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Lucas/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Lucas/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/Lucas/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-bcdd5166ca.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/endicott:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/src/endicott/build/endicott'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/endicott:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.042499] (endicott) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100268] (-) TimerEvent: {}
+[0.187182] (endicott) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.200537] (-) TimerEvent: {}
+[0.220726] (endicott) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.222874] (endicott) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.301282] (-) TimerEvent: {}
+[0.344779] (endicott) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.349552] (endicott) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.359159] (endicott) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.374598] (endicott) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.394810] (endicott) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.401537] (-) TimerEvent: {}
+[0.455239] (endicott) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.502201] (-) TimerEvent: {}
+[0.509490] (endicott) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.513654] (endicott) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.602439] (-) TimerEvent: {}
+[0.702938] (-) TimerEvent: {}
+[0.803396] (-) TimerEvent: {}
+[0.903871] (-) TimerEvent: {}
+[1.004362] (-) TimerEvent: {}
+[1.104941] (-) TimerEvent: {}
+[1.205346] (-) TimerEvent: {}
+[1.305789] (-) TimerEvent: {}
+[1.406228] (-) TimerEvent: {}
+[1.506697] (-) TimerEvent: {}
+[1.607700] (-) TimerEvent: {}
+[1.708155] (-) TimerEvent: {}
+[1.808896] (-) TimerEvent: {}
+[1.909672] (-) TimerEvent: {}
+[2.010468] (-) TimerEvent: {}
+[2.111103] (-) TimerEvent: {}
+[2.211569] (-) TimerEvent: {}
+[2.312015] (-) TimerEvent: {}
+[2.412458] (-) TimerEvent: {}
+[2.512912] (-) TimerEvent: {}
+[2.613405] (-) TimerEvent: {}
+[2.714099] (-) TimerEvent: {}
+[2.814726] (-) TimerEvent: {}
+[2.915332] (-) TimerEvent: {}
+[3.015731] (-) TimerEvent: {}
+[3.116125] (-) TimerEvent: {}
+[3.216512] (-) TimerEvent: {}
+[3.316881] (-) TimerEvent: {}
+[3.417244] (-) TimerEvent: {}
+[3.517661] (-) TimerEvent: {}
+[3.551441] (endicott) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.607123] (endicott) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[3.618050] (-) TimerEvent: {}
+[3.662329] (endicott) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[3.682893] (endicott) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[3.714828] (endicott) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.718268] (-) TimerEvent: {}
+[3.811159] (endicott) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.811447] (endicott) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/ros2_ws/src/endicott/include>\n'}
+[3.811533] (endicott) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.813204] (endicott) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.817410] (endicott) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.818409] (-) TimerEvent: {}
+[3.820402] (endicott) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.829884] (endicott) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.830090] (endicott) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.832026] (endicott) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.836508] (endicott) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.857464] (endicott) StdoutLine: {'line': b'-- Generating done\n'}
+[3.861978] (endicott) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/src/endicott/build/endicott\n'}
+[3.868445] (endicott) CommandEnded: {'returncode': 0}
+[3.869613] (endicott) JobProgress: {'identifier': 'endicott', 'progress': 'build'}
+[3.871728] (endicott) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/src/endicott/build/endicott', '--', '-j8', '-l8'], 'cwd': '/root/ros2_ws/src/endicott/build/endicott', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/endicott/build'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-c480e4a7-3702-48b8-a618-d242b6208e50.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('DEBUGINFOD_URLS', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/src/endicott/build/endicott/install:/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/80442_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2016a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Lucas/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Lucas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Lucas/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Lucas/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/Lucas/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-bcdd5166ca.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/endicott:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/src/endicott/build/endicott'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/endicott:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[3.902976] (endicott) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target endicott_turtle_controler\x1b[0m\n'}
+[3.918176] (endicott) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/endicott_turtle_controler.dir/src/endicott_turtle_controler.cpp.o\x1b[0m\n'}
+[3.918443] (-) TimerEvent: {}
+[4.019168] (-) TimerEvent: {}
+[4.120158] (-) TimerEvent: {}
+[4.220720] (-) TimerEvent: {}
+[4.321677] (-) TimerEvent: {}
+[4.423281] (-) TimerEvent: {}
+[4.524358] (-) TimerEvent: {}
+[4.625799] (-) TimerEvent: {}
+[4.727099] (-) TimerEvent: {}
+[4.827739] (-) TimerEvent: {}
+[4.928443] (-) TimerEvent: {}
+[5.029393] (-) TimerEvent: {}
+[5.130166] (-) TimerEvent: {}
+[5.231178] (-) TimerEvent: {}
+[5.332126] (-) TimerEvent: {}
+[5.433022] (-) TimerEvent: {}
+[5.534847] (-) TimerEvent: {}
+[5.635519] (-) TimerEvent: {}
+[5.736691] (-) TimerEvent: {}
+[5.837485] (-) TimerEvent: {}
+[5.938361] (-) TimerEvent: {}
+[6.040235] (-) TimerEvent: {}
+[6.142228] (-) TimerEvent: {}
+[6.243418] (-) TimerEvent: {}
+[6.345094] (-) TimerEvent: {}
+[6.445978] (-) TimerEvent: {}
+[6.546709] (-) TimerEvent: {}
+[6.648081] (-) TimerEvent: {}
+[6.749685] (-) TimerEvent: {}
+[6.851596] (-) TimerEvent: {}
+[6.952460] (-) TimerEvent: {}
+[7.054407] (-) TimerEvent: {}
+[7.156176] (-) TimerEvent: {}
+[7.256711] (-) TimerEvent: {}
+[7.357673] (-) TimerEvent: {}
+[7.458373] (-) TimerEvent: {}
+[7.559584] (-) TimerEvent: {}
+[7.660477] (-) TimerEvent: {}
+[7.761943] (-) TimerEvent: {}
+[7.862982] (-) TimerEvent: {}
+[7.963787] (-) TimerEvent: {}
+[8.064858] (-) TimerEvent: {}
+[8.166106] (-) TimerEvent: {}
+[8.266929] (-) TimerEvent: {}
+[8.367482] (-) TimerEvent: {}
+[8.468214] (-) TimerEvent: {}
+[8.568956] (-) TimerEvent: {}
+[8.669718] (-) TimerEvent: {}
+[8.772308] (-) TimerEvent: {}
+[8.873871] (-) TimerEvent: {}
+[8.974934] (-) TimerEvent: {}
+[9.076497] (-) TimerEvent: {}
+[9.178895] (-) TimerEvent: {}
+[9.280695] (-) TimerEvent: {}
+[9.382570] (-) TimerEvent: {}
+[9.484403] (-) TimerEvent: {}
+[9.586929] (-) TimerEvent: {}
+[9.689506] (-) TimerEvent: {}
+[9.791888] (-) TimerEvent: {}
+[9.893626] (-) TimerEvent: {}
+[9.995975] (-) TimerEvent: {}
+[10.097020] (-) TimerEvent: {}
+[10.199100] (-) TimerEvent: {}
+[10.300304] (-) TimerEvent: {}
+[10.402591] (-) TimerEvent: {}
+[10.504432] (-) TimerEvent: {}
+[10.607067] (-) TimerEvent: {}
+[10.708993] (-) TimerEvent: {}
+[10.810448] (-) TimerEvent: {}
+[10.911982] (-) TimerEvent: {}
+[11.013776] (-) TimerEvent: {}
+[11.115046] (-) TimerEvent: {}
+[11.216589] (-) TimerEvent: {}
+[11.318175] (-) TimerEvent: {}
+[11.419638] (-) TimerEvent: {}
+[11.521219] (-) TimerEvent: {}
+[11.622826] (-) TimerEvent: {}
+[11.724558] (-) TimerEvent: {}
+[11.826394] (-) TimerEvent: {}
+[11.928354] (-) TimerEvent: {}
+[12.030578] (-) TimerEvent: {}
+[12.132253] (-) TimerEvent: {}
+[12.233473] (-) TimerEvent: {}
+[12.335714] (-) TimerEvent: {}
+[12.436930] (-) TimerEvent: {}
+[12.538468] (-) TimerEvent: {}
+[12.639817] (-) TimerEvent: {}
+[12.741474] (-) TimerEvent: {}
+[12.844012] (-) TimerEvent: {}
+[12.945978] (-) TimerEvent: {}
+[13.047342] (-) TimerEvent: {}
+[13.149487] (-) TimerEvent: {}
+[13.252066] (-) TimerEvent: {}
+[13.353081] (-) TimerEvent: {}
+[13.453761] (-) TimerEvent: {}
+[13.554501] (-) TimerEvent: {}
+[13.655299] (-) TimerEvent: {}
+[13.755850] (-) TimerEvent: {}
+[13.856643] (-) TimerEvent: {}
+[13.957485] (-) TimerEvent: {}
+[14.058434] (-) TimerEvent: {}
+[14.159293] (-) TimerEvent: {}
+[14.259789] (-) TimerEvent: {}
+[14.360715] (-) TimerEvent: {}
+[14.461713] (-) TimerEvent: {}
+[14.562654] (-) TimerEvent: {}
+[14.663345] (-) TimerEvent: {}
+[14.764239] (-) TimerEvent: {}
+[14.865101] (-) TimerEvent: {}
+[14.965919] (-) TimerEvent: {}
+[15.066680] (-) TimerEvent: {}
+[15.167404] (-) TimerEvent: {}
+[15.267934] (-) TimerEvent: {}
+[15.368526] (-) TimerEvent: {}
+[15.469271] (-) TimerEvent: {}
+[15.569948] (-) TimerEvent: {}
+[15.670576] (-) TimerEvent: {}
+[15.771518] (-) TimerEvent: {}
+[15.872353] (-) TimerEvent: {}
+[15.973123] (-) TimerEvent: {}
+[16.074015] (-) TimerEvent: {}
+[16.174783] (-) TimerEvent: {}
+[16.275812] (-) TimerEvent: {}
+[16.376497] (-) TimerEvent: {}
+[16.477284] (-) TimerEvent: {}
+[16.551332] (endicott) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable endicott_turtle_controler\x1b[0m\n'}
+[16.577478] (-) TimerEvent: {}
+[16.678183] (-) TimerEvent: {}
+[16.779038] (-) TimerEvent: {}
+[16.879842] (-) TimerEvent: {}
+[16.891103] (endicott) StdoutLine: {'line': b'[100%] Built target endicott_turtle_controler\n'}
+[16.901813] (endicott) CommandEnded: {'returncode': 0}
+[16.903365] (endicott) JobProgress: {'identifier': 'endicott', 'progress': 'install'}
+[16.912832] (endicott) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/src/endicott/build/endicott'], 'cwd': '/root/ros2_ws/src/endicott/build/endicott', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('GIT_ASKPASS', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/root'), ('OLDPWD', '/root/ros2_ws/src/endicott/build'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-c480e4a7-3702-48b8-a618-d242b6208e50.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('DEBUGINFOD_URLS', ''), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/src/endicott/build/endicott/install:/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/80442_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2016a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Lucas/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Lucas/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Lucas/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Lucas/AppData/Local/Programs/Microsoft VS Code Insiders/bin:/mnt/c/Users/Lucas/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-bcdd5166ca.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/endicott:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/root/ros2_ws/src/endicott/build/endicott'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/endicott:/root/ros2_ws/install/turtlesim:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[16.919882] (endicott) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[16.920432] (endicott) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.921115] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/lib/endicott/endicott_turtle_controler\n'}
+[16.934064] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/ament_index/resource_index/package_run_dependencies/endicott\n'}
+[16.941826] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/ament_index/resource_index/parent_prefix_path/endicott\n'}
+[16.951817] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/ament_prefix_path.sh\n'}
+[16.958966] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/ament_prefix_path.dsv\n'}
+[16.966232] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/path.sh\n'}
+[16.972752] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/environment/path.dsv\n'}
+[16.980183] (-) TimerEvent: {}
+[16.983429] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.bash\n'}
+[16.993009] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.sh\n'}
+[17.000870] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.zsh\n'}
+[17.007748] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/local_setup.dsv\n'}
+[17.015952] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/package.dsv\n'}
+[17.023006] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/ament_index/resource_index/packages/endicott\n'}
+[17.033910] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/cmake/endicottConfig.cmake\n'}
+[17.040777] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/cmake/endicottConfig-version.cmake\n'}
+[17.050772] (endicott) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/src/endicott/install/endicott/share/endicott/package.xml\n'}
+[17.059875] (endicott) CommandEnded: {'returncode': 0}
+[17.080638] (-) TimerEvent: {}
+[17.081544] (endicott) JobEnded: {'identifier': 'endicott', 'rc': 0}
+[17.082836] (-) EventReactorShutdown: {}

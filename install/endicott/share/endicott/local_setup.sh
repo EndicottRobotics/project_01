@@ -1,0 +1,1 @@
+/root/ros2_ws/src/endicott/build/endicott/ament_cmake_environment_hooks/local_setup.sh
